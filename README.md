@@ -10,20 +10,49 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+or
+
 ```
-npm run build
+vue ui
 ```
 
-### Run your tests
+## Builds
 ```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
+npm build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Step by Step
+Nous détaillerons içi les différentes étapes de développement du projet. 
+Ceux-ci peuvent évoluer et être modifiés au cours du temps.
+
+### Création des rôles 
+3 rôles différents : 
+- Salarié (uniquement prévu jusqu'alors )
+- Responsable d’équipe
+- DRH
+
+### Création des fonctionnalités pour les salariés
+
+### Création des fonctionnalités pour les responsables d'équipe
+
+### Création des fonctionnalités pour les DRH
+
+### Assurer la responsivité de l'application via Bootstrap-Vue
+
+### Assurer l'enregistrement automatique du planning et de ses changements
+
+## Options de développement
+Ces fonctionnalités sont des possibilités d'améliorations :
+
+### L'application doit être disponible Hors-ligne (Progressive WebApp)
+
+### Système de pointage géolocalisé
+
+### Gestion de l'UI par glisser/déposer
+
+## Updates & Fixes
+
+Chaque matin (de cours), nous indiquerons dans le fichier « readme » votre programme du jour. Chaque soir, nous détaillerons un petit bilan de la journée dans ce même fichier. 
+
+### 08/11/2018
+Mise en place du projet et installations

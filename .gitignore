@@ -19,3 +19,26 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw*
+
+
+# Created by https://www.gitignore.io/api/vuejs,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=vuejs,visualstudiocode
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+### Vuejs ###
+node_modules
+.DS_Store
+docs/_book
+test/
+
+# End of https://www.gitignore.io/api/vuejs,visualstudiocode
