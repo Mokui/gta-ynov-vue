@@ -56,3 +56,7 @@ Chaque matin (de cours), nous indiquerons dans le fichier « readme » votre pro
 
 ### 08/11/2018
 Mise en place du projet et installations
+******************************************
+Demarrage de l'utilisation du routeur, mise en place du système de login basique, préparation à la vue permettant l'affichage de la fiche salarié
+
+### 09/11/2018
