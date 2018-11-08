@@ -1,12 +1,12 @@
 <template>
-  <div class="hello">
+  <div class="connection">
     <h1>{{ msg }}</h1>
 
     <!-- Using components -->
     <b-input-group prepend="Username">
       <b-form-input  v-model="choosenUser" type="text" placeholder="Enter your name"></b-form-input>
       <b-input-group-append>
-        <b-btn variant="info">Aller</b-btn>
+        <b-btn variant="info" v-on:click="connexion">Connexion</b-btn>
       </b-input-group-append>
     </b-input-group>
   </div>
@@ -22,13 +22,25 @@ export default {
       choosenUser: ''
     }
   },
-  name: "HelloWorld",
+  name: "Connection",
   props: {
     msg: String,
   },
   created(){
     console.log(this.users);
     
+  },
+  methods: {
+    connexion(){
+      for (const u of this.users) {
+        if (u.name == choosenUser) {
+          router.push({ name: "login"})
+        }
+        else{
+
+        }
+      }
+    }
   }
 };
 </script>
