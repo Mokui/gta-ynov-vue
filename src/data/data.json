@@ -1,0 +1,13 @@
+[
+    {
+      "name": "Van Damne",
+      "firstname": "J-C",
+      "birth": "08/10/1960",
+      "adress": "1 boulevard Aware",
+      "phone": "0697452112",
+      "email": "jcvd@gmail.com",
+      "congRestants": 8,
+      "dayHours": 8,
+      "missingDays": 0
+    }
+]
