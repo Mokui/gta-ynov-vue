@@ -16,7 +16,7 @@
             <template slot="button-content">
               <em>User</em>
             </template>
-            <b-dropdown-item href="/login" to="/login">login</b-dropdown-item>
+            <b-dropdown-item href="/" to="/">login</b-dropdown-item>
             <b-dropdown-item href="#">Signout</b-dropdown-item>
           </b-nav-item-dropdown>
         </b-navbar-nav>
@@ -30,9 +30,9 @@
     <!-- Footer -->
     <Footer color="blue" class="font-small pt-4 mt-4">
       <div class="footer-copyright text-center py-3">
-        <container fluid>
+        <b-container fluid>
           &copy; 2018 Copyright: <router-link to="/about">About</router-link>
-        </container>
+        </b-container>
       </div>
     </Footer>
     <!-- Footer -->

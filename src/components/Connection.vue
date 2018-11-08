@@ -32,12 +32,14 @@ export default {
   },
   methods: {
     connexion(){
+      console.log(this.choosenUser);
+      
       for (const u of this.users) {
-        if (u.name == choosenUser) {
-          router.push({ name: "login"})
+        if (u.name == this.choosenUser) {
+          this.$router.push({ name: "home"})
         }
         else{
-
+          this.$router.push({ name: "login"})
         }
       }
     }
