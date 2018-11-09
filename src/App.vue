@@ -28,7 +28,7 @@
     </b-container>
 
     <!-- Footer -->
-    <Footer color="blue" class="font-small pt-4 mt-4">
+    <Footer color="blue" class="font-small pt-4 mt-4" id="footer_bullshit">
       <div class="footer-copyright text-center py-3">
         <b-container fluid>
           &copy; 2018 Copyright: <router-link to="/about">About</router-link>
@@ -41,7 +41,7 @@
 </template>
 
 <style lang="scss">
-footer {
+#footer_bullshit {
     position: fixed;
     height: 100px;
     bottom: 0;

@@ -7,6 +7,7 @@
 <script>
 // @ is an alias to /src
 import Salary from "@/components/Salary.vue";
+import json from '../data/data.json'
 
 export default {
   name: "home",
