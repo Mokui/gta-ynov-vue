@@ -34,11 +34,12 @@ export default {
     connexion(){
       for (const u of this.users) {
         if (u.email === this.choosenUser) {
-          // TODO: Crée un token avec un ID hashé puis redirige
-          this.$router.push({ name: "home", params: { userId: u.id }})
+          // TODO: Crée un token depuis l'id du User afin d'avoir une persistance de données
+
+          return this.$router.push({ name: "home", params: { userId: u.id_user }}) // home/:id_user
         }
         else{
-          this.$router.push({ name: "login"})
+          throw new Error("Invalid credentials");
         }
       }
     }
