@@ -16,17 +16,17 @@ export default new Router({
       redirect: ""
     },
     {
-      path: "/home/:id_user",
+      path: "/home/:userId",
       name: "home",
       component: Home
     },
     {
-      path: "/dashboard/:id_user",
+      path: "/dashboard/:userId",
       name: "dashboard",
       component: Dashboard
     },
     {
-      path: "/plan/:id_user",
+      path: "/plan/:userId",
       name: "plan",
       component: Plan
     },

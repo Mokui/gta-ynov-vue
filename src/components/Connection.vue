@@ -34,10 +34,10 @@
         for (const u of this.users) {
           if (u.email === this.choosenUser) {
             // TODO: Crée un token avec un ID hashé puis redirige
-            this.$router.push({ name: "home", params: { userId: u.id } })
-          }
-          else {
-            this.$router.push({ name: "login" })
+            return this.$router.push({ name: "home", params: { userId: u.id_user }}) // home/:id_user
+        }
+        else{
+          throw new Error("Invalid credentials");
           }
         }
       }
