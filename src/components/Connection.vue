@@ -3,8 +3,8 @@
     <h1>{{ msg }}</h1>
 
     <!-- Using components -->
-    <b-input-group prepend="Username">
-      <b-form-input  v-model="choosenUser" type="text" placeholder="Enter your name"></b-form-input>
+    <b-input-group prepend="Login">
+      <b-form-input  v-model="choosenUser" type="text" placeholder="Enter your email"></b-form-input>
       <b-input-group-append>
         <b-btn variant="info" v-on:click="connexion">Connexion</b-btn>
       </b-input-group-append>
@@ -27,16 +27,15 @@ export default {
     msg: String,
   },
   created(){
-    console.log(this.users);
+    // console.log(this.users);
     
   },
   methods: {
     connexion(){
-      console.log(this.choosenUser);
-      
       for (const u of this.users) {
-        if (u.name == this.choosenUser) {
-          this.$router.push({ name: "home"})
+        if (u.email === this.choosenUser) {
+          // TODO: Crée un token avec un ID hashé puis redirige
+          this.$router.push({ name: "home", params: { userId: u.id }})
         }
         else{
           this.$router.push({ name: "login"})
