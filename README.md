@@ -62,3 +62,4 @@ Demarrage de l'utilisation du routeur, mise en place du système de login basiqu
 ### 09/11/2018
 Mise en place du composants de la fiche salarié 
 ******************************************
+Connexion préparée, mise en place de vuex

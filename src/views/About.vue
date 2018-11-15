@@ -1,5 +1,9 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>About us</h1>
+
+    <p>
+      We are Gregoire Meunier and Yanis DANDO. We two are computer science student at Ynov
+    </p>
   </div>
 </template>
