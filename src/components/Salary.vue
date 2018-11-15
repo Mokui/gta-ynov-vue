@@ -13,7 +13,10 @@
 
         <b-modal id="modal_name" ref="modal" title="Submit your name">
             <form>
-                <b-form-input type="text" placeholder="Enter your name" v-model="name"></b-form-input>
+                <b-form-input type="text" placeholder="Enter your birthdate" v-model="birthdate"></b-form-input>
+                <b-form-input type="text" placeholder="Enter your adresse" v-model="adresse"></b-form-input>
+                <b-form-input type="text" placeholder="Enter your phone number" v-model="phonenumber"></b-form-input>
+                <b-form-input type="text" placeholder="Enter your email" v-model="email"></b-form-input>
             </form>
         </b-modal>
     </div>

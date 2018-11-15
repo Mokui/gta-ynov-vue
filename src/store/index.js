@@ -6,18 +6,7 @@ import actions from './actions'
 Vue.use(Vuex)
 
 const state = {
-  user_connected: {
-    "id_user": 0,
-    "name": "",
-    "firstname": "",
-    "birth": "",
-    "adress": "",
-    "phone": "",
-    "email": "",
-    "congRestants": 0,
-    "dayHours": 0,
-    "missingDays": 0
-  }
+  user_connected: {}
 }
 
 export default new Vuex.Store({
