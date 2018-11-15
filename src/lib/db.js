@@ -31,5 +31,3 @@ db.changes().on('change', function () {
 });
 
 db.replicate.to('http://example.com/mydb');
-
-export default db;
