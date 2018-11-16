@@ -66,3 +66,6 @@ Connexion préparée, mise en place de vuex
 
 ### 15/11/2018
 Gestion du backend utilisateur et du stockage de la donnée
+
+### 16/11/2018
+Gestion des redirections et de la persistance des données de connexion
