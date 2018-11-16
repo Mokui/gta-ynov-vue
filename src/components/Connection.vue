@@ -12,38 +12,38 @@
 </template>
 
 <script>
-  import json from '../data/data.json'
+import json from "../data/data.json";
 
-  export default {
-    data() {
-      return {
-        users: json,
-        choosenUser: ''
-      }
-    },
-    name: "Connection",
-    props: {
-      msg: String,
-    },
-    mounted() {
-      // console.log(this.users);
-      console.log(this.$store.state.user_connected.name)
-    },
-    methods: {
+export default {
+  data() {
+    return {
+      users: json,
+      choosenUser: ""
+    };
+  },
+  name: "Connection",
+  props: {
+    msg: String
+  },
+  mounted() {
+    // console.log(this.users);
+  },
+  methods: {
     connexion() {
-        for (const u of this.users) {
-          if (u.email === this.choosenUser) {
-            // TODO: Crée un token avec un ID hashé puis redirige
-            this.$store.commit('user_connected', u)
-            return this.$router.push({ name: "home", params: { userId: u.id_user }}) // home/:id_user
-        }
-        else{
+      for (const u of this.users) {
+        if (u.email === this.choosenUser) {
+          this.$store.commit("user_connected", u);
+          return this.$router.push({
+            name: "home",
+            params: { userId: u.id_user }
+          }); // home/:id_user
+        } else {
           throw new Error("Invalid credentials");
-          }
         }
       }
     }
-  };
+  }
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
