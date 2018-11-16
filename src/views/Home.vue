@@ -13,6 +13,13 @@ export default {
   name: "home",
   components: {
     Salary
+  },
+  created() {
+    // console.log(this.$store.getters.user_connected);
+    
+    if (this.$store.getters.user_connected.id_user == null || this.$store.getters.user_connected.id_user == undefined ) {
+      this.$router.push({'path': '/'});
+    }
   }
 };
 </script>

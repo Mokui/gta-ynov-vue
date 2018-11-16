@@ -27,7 +27,7 @@
         name: "Salary",
         props: {
             birth: Date,
-            address: String,
+            adress: String,
             phone: String,
             email: String
         }
