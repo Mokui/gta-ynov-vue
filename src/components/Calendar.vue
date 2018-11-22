@@ -229,11 +229,25 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style>
 
 body, html, #app, #dayspan {
   font-family: Roboto, sans-serif !important;
   width: 100%;
+}
+
+.v-toolbar--fixed{
+    position: relative !important;
+    top: initial !important;
+    margin-bottom:1%;
+}
+
+.v-navigation-drawer, .v-navigation-drawer--clipped, .v-navigation-drawer--fixed, .v-navigation-drawer--open {
+    margin-top: 7% !important;
+}
+
+.v-content, .ds-expand {
+    padding-top: 0 !important;
 }
 
 .v-btn--flat,
