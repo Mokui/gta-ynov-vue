@@ -26,7 +26,7 @@ export default new Router({
       component: Dashboard
     },
     {
-      path: "/plan/:userId",
+      path: "/plan",
       name: "plan",
       component: Plan
     },
