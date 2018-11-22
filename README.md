@@ -69,3 +69,6 @@ Gestion du backend utilisateur et du stockage de la donnée
 
 ### 16/11/2018
 Gestion des redirections et de la persistance des données de connexion
+
+### 22/11/2018
+Implementation du planning de prise de rdv

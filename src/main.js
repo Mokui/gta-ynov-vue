@@ -9,6 +9,17 @@ import "bootstrap-vue/dist/bootstrap-vue.css";
 
 Vue.use(BootstrapVue);
 Vue.config.productionTip = false;
+router.beforeEach((to, from, next) => {
+  next(vm => {
+    // access to component instance via `vm`
+    if (
+      vm.$store.getters.user_connected.id_user == null ||
+      vm.$store.getters.user_connected.id_user == undefined
+    ) {
+      next("/");
+    }
+  })
+});
 
 new Vue({
   router,
