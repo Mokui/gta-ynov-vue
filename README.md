@@ -63,3 +63,12 @@ Demarrage de l'utilisation du routeur, mise en place du système de login basiqu
 Mise en place du composants de la fiche salarié 
 ******************************************
 Connexion préparée, mise en place de vuex
+
+### 15/11/2018
+Gestion du backend utilisateur et du stockage de la donnée
+
+### 16/11/2018
+Gestion des redirections et de la persistance des données de connexion
+
+### 22/11/2018
+Implementation du planning de prise de rdv
