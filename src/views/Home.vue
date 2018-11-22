@@ -1,13 +1,18 @@
 <template>
-  <HelloWorld />
+  <div class="home">
+    <Salary msg="Welcome to Your Vue.js App"/>
+  </div>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+// @ is an alias to /src
+import Salary from "@/components/Salary.vue";
+import json from '../data/data.json'
 
-  export default {
-    components: {
-      HelloWorld
-    }
+export default {
+  name: "home",
+  components: {
+    Salary
   }
+};
 </script>

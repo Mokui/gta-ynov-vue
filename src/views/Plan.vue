@@ -1,6 +1,6 @@
 <template>
   <div class="plan">
-      <Calendar msg="You can plan by clicking on the '+' button at right below"></Calendar>
+    <Calendar msg="You can plan by clicking on the '+' button at right below"></Calendar>
   </div>
 </template>
 
