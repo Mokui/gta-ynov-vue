@@ -1,5 +1,7 @@
 # gta-ynov-vue
 
+URL du site disponible en ligne : [HERE](grigusky.github.io) 
+
 ## Project setup
 ```
 npm install
@@ -72,3 +74,6 @@ Gestion des redirections et de la persistance des données de connexion
 
 ### 22/11/2018
 Implementation du planning salarié et de la dashboard
+
+### 23/11/2018
+Peuplement du planning et mise en ligne

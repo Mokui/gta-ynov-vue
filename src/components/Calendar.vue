@@ -61,14 +61,14 @@ export default {
     defaultEvents: [
       {
         data: {
-          title: 'Weekly Meeting',
+          title: 'Work',
           color: '#3F51B5'
         },
         schedule: {
           dayOfWeek: [Weekday.MONDAY],
-          times: [9],
-          duration: 30,
-          durationUnit: 'minutes'
+          times: [5],
+          duration: 8,
+          durationUnit: 'hours'
         }
       },
       {
@@ -153,6 +153,9 @@ export default {
       }
     ]
   }),
+
+  created(){
+  },
 
   mounted()
   {
