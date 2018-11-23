@@ -13,7 +13,7 @@
 
         <b-modal id="modal_name" ref="modal" title="Submit your name">
             <form>
-                <b-form-input type="text" placeholder="Enter your birthdate" v-model="birth"></b-form-input>
+                <b-form-input type="text" placeholder="Enter your birthdate" v-model="birth">{{ $store.getters.user_connected.birth }}</b-form-input>
                 <b-form-input type="text" placeholder="Enter your adresse" v-model="adress"></b-form-input>
                 <b-form-input type="text" placeholder="Enter your phone number" v-model="phone"></b-form-input>
                 <b-form-input type="text" placeholder="Enter your email" v-model="email"></b-form-input>
