@@ -1,6 +1,6 @@
 # gta-ynov-vue
 
-URL du site disponible en ligne : [HERE](grigusky.github.io) 
+URL du site disponible en ligne : [HERE](http://grigusky.github.io) 
 
 ## Project setup
 ```
