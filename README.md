@@ -1,6 +1,7 @@
 # gta-ynov-vue
 
 URL du site disponible en ligne : [HERE](http://grigusky.github.io) 
+login credentials dummy : jcvd@gmail.com
 
 ## Project setup
 ```
