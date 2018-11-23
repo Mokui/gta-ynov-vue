@@ -65,9 +65,9 @@ export default {
           color: '#3F51B5'
         },
         schedule: {
-          dayOfWeek: [Weekday.MONDAY],
-          times: [5],
-          duration: 8,
+          dayOfWeek: [Weekday.MONDAY, Weekday.TUESDAY, Weekday.WEDNESDAY, Weekday.THURSDAY, Weekday.FRIDAY],
+          times: [9],
+          duration: this.$store.getters.user_connected.dayHours,
           durationUnit: 'hours'
         }
       },

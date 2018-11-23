@@ -14,6 +14,7 @@ import DaySpanVuetify from "dayspan-vuetify";
 import "../node_modules/vuetify/dist/vuetify.min.css";
 import "../node_modules/material-design-icons-iconfont/dist/material-design-icons.css";
 import "../node_modules/dayspan-vuetify/dist/lib/dayspan-vuetify.min.css";
+window.Vue = Vue;
 
 Vue.use(VueGoogleCharts);
 Vue.use(BootstrapVue);
