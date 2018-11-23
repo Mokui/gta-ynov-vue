@@ -15,6 +15,20 @@
 
   </div>
 </template>
+<script>
+import 'vuetify/dist/vuetify.min.css'
+
+export default {
+  name: 'App',
+  components: {
+  },
+  data () {
+    return {
+      //
+    }
+  }
+}
+</script>
 
 <script>
   export default {

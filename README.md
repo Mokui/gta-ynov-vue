@@ -1,5 +1,9 @@
 # gta-ynov-vue
 
+URL du site disponible en ligne : [HERE](http://grigusky.github.io) 
+
+login credentials dummy : jcvd@gmail.com
+
 ## Project setup
 ```
 npm install
@@ -71,4 +75,7 @@ Gestion du backend utilisateur et du stockage de la donnée
 Gestion des redirections et de la persistance des données de connexion
 
 ### 22/11/2018
-Implementation du planning de prise de rdv
+Implementation du planning salarié et de la dashboard
+
+### 23/11/2018
+Peuplement du planning et mise en ligne
