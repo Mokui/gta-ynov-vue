@@ -1,9 +1,9 @@
 <template>
   <div class="connection">
-    <h1>{{ msg }}</h1>
+    <h1>Connexion</h1>
     <!-- Using components -->
     <b-input-group prepend="Login">
-      <b-form-input v-model="choosenUser" type="text" placeholder="Enter your email"></b-form-input>
+      <b-form-input v-model="choosenUser" type="text" placeholder="Entrez votre email"></b-form-input>
       <b-input-group-append>
         <b-btn variant="info" v-on:click="connexion">Connexion</b-btn>
       </b-input-group-append>
@@ -22,9 +22,7 @@ export default {
     };
   },
   name: "Connection",
-  props: {
-    msg: String
-  },
+  props: {},
   mounted() {
     // console.log(this.users);
   },
@@ -48,6 +46,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+.connection {
+  margin: 10%;
+}
+
 h3 {
   margin: 40px 0 0;
 }

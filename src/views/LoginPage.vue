@@ -1,7 +1,7 @@
 <template>
   <div class="login">
-      <Menu/>
-      <Connection msg="Please connect using your name"/>
+    <Menu/>
+    <Connection/>
   </div>
 </template>
 
