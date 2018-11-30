@@ -1,8 +1,7 @@
 <template>
   <div class="plan">
-      <Menu/>
-      <p>Welcome to the planing interface</p>
-      <Calendar msg="You can plan by clicking on the '+' button at right below"></Calendar>
+    <Menu/>
+    <Calendar msg="You can plan by clicking on the '+' button at right below"></Calendar>
   </div>
 </template>
 
