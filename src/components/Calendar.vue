@@ -200,7 +200,7 @@ export default {
       state.events.forEach(ev => {
         let defaults = this.$dayspan.getDefaultEventDetails();
 
-        ev.data = Vue.util.extend(defaults, ev.data);
+        //ev.data = Vue.util.extend(defaults, ev.data);
       });
 
       this.$refs.app.setState(state);
