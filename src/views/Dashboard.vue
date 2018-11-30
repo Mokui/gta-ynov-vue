@@ -1,7 +1,6 @@
 <template>
   <div class="dashboard">
     <Menu/>
-      <p>Welcome to the dashboard</p>
       <Graphics/>
   </div>
 </template>
